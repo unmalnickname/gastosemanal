@@ -17,6 +17,7 @@ class FormularioGastos extends Component {
     console.log(gasto);
 
     //agregarlo y enviarlo a props
+    this.props.agregarGasto(gasto);
 
     //resetear elf ormulario (optional)
     e.currentTarget.reset();
